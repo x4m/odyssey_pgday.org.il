@@ -20,3 +20,6 @@ If you do not use temporary tables, advisory locks, prepared statements and othe
 PgBouncer is more established tool - it's been there for more than a decade.
 
 But if you have more than 1000 of client connections, Odyssey is, probably, a better option.
+
+### Q: Does the Odyssey work on Windows\MacOS?
+Unfortunately, no. Dureing the development we cut the corners of portability and Odyssey operates over epoll(7). Probably, at some point we will support kqueues. We tried to build pooler over libevent, but faced costs of abstraction and abondoned the idea for now.
