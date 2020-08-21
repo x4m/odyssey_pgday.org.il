@@ -1,5 +1,5 @@
 # Scalable connection pooler Odyssey:
-## purpose, setup, monitoring, architecture
+# purpose, setup, monitoring, architecture
 ## PG Day Israel 2020
 
 Video can be found [here](https://yadi.sk/i/vunlsW1ip5m8FA)
